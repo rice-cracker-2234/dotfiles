@@ -1,0 +1,27 @@
+[$Version]
+update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_value_default_enum
+
+[General]
+loginMode=emptySession
+
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=1052696365000167411848700000006270004
+clientId2=1052696365000167411877900000006270017
+clientId3=1052696365000167411883500000006270019
+count=3
+discardCommand2[$e]=rm,$HOME/.config/session/konsole_1052696365000167411877900000006270017_1674118968_813982
+program1=/usr/lib/DiscoverNotifier
+program2=/usr/bin/konsole
+program3=/usr/bin/flameshot
+restartCommand1=/usr/lib/DiscoverNotifier,-session,1052696365000167411848700000006270004_1674118968_810878
+restartCommand2=/usr/bin/konsole,-session,1052696365000167411877900000006270017_1674118968_813982
+restartCommand3=/usr/bin/flameshot,-session,1052696365000167411883500000006270019_1674118968_811719
+restartStyleHint1=0
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=khoa
+userId2=khoa
+userId3=khoa
